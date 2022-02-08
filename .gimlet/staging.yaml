@@ -8,6 +8,7 @@ chart:
 values:
   image:
     repository: myappdvdv
+  replicas: 2
 strategicMergePatches: ""
 json6902Patches: []
 manifests: ""
