@@ -1,0 +1,14 @@
+app: react-7ajs9w
+env: prod
+namespace: prod
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.32.0
+values:
+  image:
+    repository: myapp
+  replicas: 1
+strategicMergePatches: ""
+json6902Patches: []
+manifests: ""
