@@ -1,0 +1,14 @@
+app: react-7ajs9w
+env: liberal-frog
+namespace: default
+chart:
+  repository: https://chart.onechart.dev
+  name: onechart
+  version: 0.57.0
+values:
+  gitRepository: dzsak/react-7ajs9w
+  gitSha: '{{ .SHA }}'
+  image:
+    tag: latest-non-existent
+  resources:
+    ignoreLimits: true
