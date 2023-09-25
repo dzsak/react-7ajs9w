@@ -9,6 +9,6 @@ values:
   gitRepository: dzsak/react-7ajs9w
   gitSha: '{{ .SHA }}'
   image:
-    tag: latest
+    tag: latest-non-exist
   resources:
     ignoreLimits: true
